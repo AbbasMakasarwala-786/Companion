@@ -55,7 +55,7 @@ interface CreateUser {
 }
 
 interface SearchParams {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>; // a dicitonary of key os type string and value can be a string only or list of strings or underfined
 }
 
 interface Avatar {
@@ -72,7 +72,7 @@ interface SavedMessage {
 }
 
 interface CompanionComponentProps {
-  companionId: string;
+ companionId: string;
   subject: string;
   topic: string;
   name: string;

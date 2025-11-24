@@ -4,7 +4,7 @@ import React from 'react'
 
 const CTA = () => {
   return (
-   <section className='cta-section'>
+   <section className='cta-section md:w-full'>
     <div className='cta-badge'>
       Start learning your way
     </div>
